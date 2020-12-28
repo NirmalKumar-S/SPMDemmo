@@ -28,7 +28,7 @@ public struct SPMDemo3New {
 	public var text = "SPM DEMO Loaded 3"
 	
 	public init() {
-		self.text = "Demo Loaded"
+		print("SPMDemo3New struct loaded")
 	}
 }
 
@@ -38,4 +38,8 @@ public func SPMDemo4New() -> String {
 
 open class Test {
 	public var text = "SPM DEMO Loaded 1 from class"
+	
+	public init() {
+		print("Open class loaded")
+	}
 }
