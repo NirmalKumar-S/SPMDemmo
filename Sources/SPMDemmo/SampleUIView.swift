@@ -8,25 +8,30 @@
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-public struct SampleUIView: View {
-
+public struct LocalSwiftUIView: View {
+	
+	public let data: String
+	
 	public var body: some View {
 		VStack {
-			Text("Hello, world!")
-			Text("Hello, world!")
-			Text("Hello, world!")
-			Text("Hello, world!")
-			Text("Hello, world!")
+			Text("Local SWIFT UI")
+			Text("Local SWIFT UI")
+			Text("\(data)")
 		}.frame(width: 200, height: 200, alignment: .center)
-		.background(Color(.lightGray))
+		.background(Color(.darkGray))
 		.padding()
-		
+	}
+	
+	public init(data: String) {
+		self.data = data
 	}
 }
 
-//@available(iOS 13.0.0, *)
-//public struct SampleUIView_Previews: PreviewProvider {
-//	public static var previews: some View {
-//		SampleUIView()
-//	}
-//}
+@available(iOS 13.0.0, *)
+public struct LocalSwiftUIView_Previews: PreviewProvider {
+	public static var previews: some View {
+		LocalSwiftUIView(data: "")
+	}
+}
+
+
