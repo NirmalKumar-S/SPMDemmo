@@ -1,4 +1,9 @@
 
+import Foundation
+import SwiftUI
+import Combine
+import UIKit
+
 struct SPMDemmoDefault {
 	var text = "SPM DEMO Loaded default"
 }
@@ -7,7 +12,10 @@ public struct SPMDemmo1New {
 	var text = "SPM DEMO Loaded 1"
 }
 
-public struct SPMDemo2New {
+public struct SPMDemo2New: Identifiable {
+
+	public var id: ObjectIdentifier
+	
 	public var text = "SPM DEMO Loaded 2"
 }
 
