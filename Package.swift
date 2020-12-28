@@ -9,7 +9,7 @@ let package = Package(
 		// Products define the executables and libraries a package produces, and make them visible to other packages.
 		.library(
 			name: "SPMDemmo",
-			targets: ["SPMDemmo", "LocalFramework"]),
+			targets: ["SPMDemmo"]),
 	],
 	dependencies: [
 		// Dependencies declare other packages that this package depends on.
@@ -21,7 +21,7 @@ let package = Package(
 		.target(
 			name: "SPMDemmo", dependencies: [], path: "Sources", exclude: [], resources: [.process("SampleUIView.swift")]
 		),
-		.binaryTarget(name: "LocalFramework", path: "../LocalFramework")
+
 		.testTarget(
 			name: "SPMDemmoTests",
 			dependencies: ["SPMDemmo"]),
