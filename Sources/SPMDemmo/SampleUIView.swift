@@ -5,18 +5,11 @@
 //  Created by Nirmal Kumar S on 23/12/20.
 //
 
-import Foundation
 import SwiftUI
-import Combine
-import UIKit
 
 @available(iOS 13.0.0, *)
 public struct SampleUIView: View {
-	
-	public init() {
-		print("")
-	}
-	
+
 	public var body: some View {
 		VStack {
 			Text("Hello, world!")
