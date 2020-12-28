@@ -10,17 +10,26 @@ struct SPMDemmoDefault {
 
 public struct SPMDemmo1New {
 	var text = "SPM DEMO Loaded 1"
+	
 }
 
 public struct SPMDemo2New: Identifiable {
-
-	public var id: ObjectIdentifier
 	
-	public var text = "SPM DEMO Loaded 2"
+	public var id = UUID()
+	
+	public var text = "Demo Loaded"
+	
+	public init() {
+		print("SPMDemo2New struct loaded")
+	}
 }
 
 public struct SPMDemo3New {
 	public var text = "SPM DEMO Loaded 3"
+	
+	public init() {
+		self.text = "Demo Loaded"
+	}
 }
 
 public func SPMDemo4New() -> String {
