@@ -26,9 +26,9 @@ public struct SampleUIView: SwiftUI.View {
 	}
 }
 
-//@available(iOS 13.0.0, *)
-//public struct SampleUIView_Previews: PreviewProvider {
-//	public static var previews: some View {
-//		SampleUIView()
-//	}
-//}
+@available(iOS 13.0.0, *)
+public struct SampleUIView_Previews: PreviewProvider {
+	public static var previews: some View {
+		SampleUIView()
+	}
+}
