@@ -20,7 +20,7 @@ public struct SPMDemo2New: Identifiable {
 	public var text = "Demo Loaded"
 	
 	public init() {
-		print("SPMDemo2New struct loaded")
+		print("")
 	}
 }
 
@@ -28,7 +28,7 @@ public struct SPMDemo3New {
 	public var text = "SPM DEMO Loaded 3"
 	
 	public init() {
-		print("SPMDemo3New struct loaded")
+		print("")
 	}
 }
 
@@ -40,6 +40,6 @@ open class Test {
 	public var text = "SPM DEMO Loaded 1 from class"
 	
 	public init() {
-		print("Open class loaded")
+		print("")
 	}
 }
