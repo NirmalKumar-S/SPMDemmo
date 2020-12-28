@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "SPMDemmo",
 			dependencies: [], path: "Sources",
-            exclude: ["Tests"]),
+            exclude: []),
         .testTarget(
             name: "SPMDemmoTests",
             dependencies: ["SPMDemmo"]),

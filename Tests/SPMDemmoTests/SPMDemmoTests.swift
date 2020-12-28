@@ -6,7 +6,7 @@ final class SPMDemmoTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SPMDemmo().text, "Hello, World!")
+		XCTAssertEqual(SPMDemmoDefault().text, "Hello, World!")
     }
 
     static var allTests = [
