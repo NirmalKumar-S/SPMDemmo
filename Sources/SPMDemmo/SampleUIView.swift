@@ -16,6 +16,7 @@ public struct SampleUIView: View {
 		VStack {
 			Text("Local SWIFT UI from Git Hub")
 			Text("\(data)")
+			.foregroundColor(.blue)
 		}.frame(width: 200, height: 200, alignment: .center)
 		.background(Color(.darkGray))
 		.padding()
