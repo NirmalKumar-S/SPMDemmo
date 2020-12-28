@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 13.0.0, *)
-public struct LocalSwiftUIView: View {
+public struct SampleUIView: View {
 	
 	public let data: String
 	
@@ -27,9 +27,9 @@ public struct LocalSwiftUIView: View {
 }
 
 @available(iOS 13.0.0, *)
-public struct LocalSwiftUIView_Previews: PreviewProvider {
+public struct SampleUIView_Previews: PreviewProvider {
 	public static var previews: some View {
-		LocalSwiftUIView(data: "")
+		SampleUIView(data: "")
 	}
 }
 
