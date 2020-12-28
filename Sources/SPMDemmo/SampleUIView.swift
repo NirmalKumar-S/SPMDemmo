@@ -11,7 +11,12 @@ import Combine
 import UIKit
 
 @available(iOS 13.0.0, *)
-public struct SampleUIView: SwiftUI.View {
+public struct SampleUIView: View {
+	
+	public init() {
+		print("")
+	}
+	
 	public var body: some View {
 		VStack {
 			Text("Hello, world!")
@@ -26,9 +31,9 @@ public struct SampleUIView: SwiftUI.View {
 	}
 }
 
-@available(iOS 13.0.0, *)
-public struct SampleUIView_Previews: PreviewProvider {
-	public static var previews: some View {
-		SampleUIView()
-	}
-}
+//@available(iOS 13.0.0, *)
+//public struct SampleUIView_Previews: PreviewProvider {
+//	public static var previews: some View {
+//		SampleUIView()
+//	}
+//}
